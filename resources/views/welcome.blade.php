@@ -11,8 +11,8 @@
 
             <!-- /.card-header -->
             <div class="card-header">
-                <button class="btn btn-primary"> tambah </button>
-                <button class="btn btn-info"> report </button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#m_tambah"> Tambah </button>
+                <button class="btn btn-info"> Report </button>
             </div>
             <div class="card-body">
 
@@ -54,5 +54,51 @@
 
 </section>
 <!-- /.content -->
+
+<div class="modal fade" id="m_tambah" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Tambah produk</h5>
+        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">x</button>
+      </div>
+      <div class="modal-body">
+
+        <div class="row mb-3">
+            <label for="colFormLabelSm" class="col-sm-5 col-form-label col-form-label-sm">Nama Produk</label>
+            <div class="col-sm-7">
+                <input type="text" class="form-control form-control-sm" id="colFormLabelSm" placeholder="nama produk">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="colFormLabelSm" class="col-sm-5 col-form-label col-form-label-sm">Harga Produk</label>
+            <div class="col-sm-7">
+                <input type="number" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Harga produk">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="colFormLabelSm" class="col-sm-5 col-form-label col-form-label-sm">status</label>
+            <div class="col-sm-7">
+                <input type="text" class="form-control form-control-sm" id="colFormLabelSm" placeholder="status produk">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="colFormLabelSm" class="col-sm-5 col-form-label ">tanggal pembuatan</label>
+            <div class="col-sm-7">
+                <input type="date" class="form-control form-control-sm" id="colFormLabelSm" placeholder="col-form-label-sm">
+            </div>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 @endsection
