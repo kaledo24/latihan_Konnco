@@ -67,35 +67,35 @@
         <div class="row mb-3">
             <label for="colFormLabelSm" class="col-sm-5 col-form-label col-form-label-sm">Nama Produk</label>
             <div class="col-sm-7">
-                <input type="text" class="form-control form-control-sm" id="colFormLabelSm" placeholder="nama produk">
+                <input type="text" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Nama Produk">
             </div>
         </div>
 
         <div class="row mb-3">
             <label for="colFormLabelSm" class="col-sm-5 col-form-label col-form-label-sm">Harga Produk</label>
             <div class="col-sm-7">
-                <input type="number" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Harga produk">
+                <input type="number" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Harga Produk">
             </div>
         </div>
 
         <div class="row mb-3">
             <label for="colFormLabelSm" class="col-sm-5 col-form-label col-form-label-sm">status</label>
             <div class="col-sm-7">
-                <input type="text" class="form-control form-control-sm" id="colFormLabelSm" placeholder="status produk">
+                <input type="text" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Status Produk">
             </div>
         </div>
 
         <div class="row mb-3">
             <label for="colFormLabelSm" class="col-sm-5 col-form-label ">tanggal pembuatan</label>
             <div class="col-sm-7">
-                <input type="date" class="form-control form-control-sm" id="colFormLabelSm" placeholder="col-form-label-sm">
+                <input type="date" class="form-control form-control-sm" id="colFormLabelSm" placeholder="tanggal pembuatan">
             </div>
         </div>
 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-primary">Save</button>
       </div>
     </div>
   </div>
